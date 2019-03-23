@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Konwerter</title>
+</head>
+<body>
+	<form action="MyServlet">
+		<h1>Konwerter temperatury</h1>
+		<p> <label>Temperatura:</label>
+			<input type="number" min="-99999" max="99999" step="1" value="20"
+				name="value1" required> 
+				<select name="oper">
+				<option value="ConF">Z Celcjusza na Fahrenheita</option>
+				<option value="FonC">Z Fahrenheita na Celcjusza</option>
+			</select> 
+			 <input type="submit" value="Oblicz">
+		</p>
+	</form>
+</body>
+</html>
